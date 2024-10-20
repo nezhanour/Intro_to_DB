@@ -1,3 +1,2 @@
 USE alx_book_store;
-SELECT * FROM Books 
-DESC Books
+SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'alx_book_store' ORDER BY TABLE_NAME = 'Books'
